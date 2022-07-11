@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
     position: relative;
     margin: 0;
     width: 100%;
@@ -9,9 +10,17 @@ html, body{
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body>section {
+    position: relative;
+    display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
-a{
+a {
     color: #fff;
 }
